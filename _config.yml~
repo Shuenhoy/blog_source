@@ -109,27 +109,6 @@ plugins:
 prose:
   rooturl: "source/_posts"
   metadata:
-    "source/_posts": 
-      - name: "date"
-        field:
-          element: "text"
-          value: "
-      - name: "title" 
-        field:
-          label: "Title"
-          element: "text"
-          value: "title"
-      - name: "tags"
-        field:
-          label: "Tags"
-          element: "text"
-          value: ""
-      - name: "categories"
-        field:
-          label: "Categories"
-          element: "text"
-          value: "默认分类"      
-     
-      
-
+    "source/_posts": |
+      tags:
 

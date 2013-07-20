@@ -108,7 +108,5 @@ plugins:
   - hexo-generator-sitemap
 prose:
   rooturl: "source/_posts"
-  metadata:
-    "source/_posts": |
-      tags:
+
 

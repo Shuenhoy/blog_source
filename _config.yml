@@ -109,9 +109,10 @@ plugins:
 prose:
   rooturl: "source/_posts"
   metadata:
-    "source/_posts": 
+    "source/_posts":
       - name: "date"
         field:
+          label: "Date"
           element: "text"
           value: ""
       - name: "title" 
@@ -129,7 +130,4 @@ prose:
           label: "Categories"
           element: "text"
           value: "默认分类"      
-     
-      
-
 

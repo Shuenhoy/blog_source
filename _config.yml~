@@ -106,17 +106,4 @@ deploy:
 plugins:
   - hexo-generator-feed
   - hexo-generator-sitemap
-prose:
-  rooturl: "source/_posts"
-  metadata:
-    "source/_posts": |
-      title: "Title"
-      date: CURRENT_DATETIME
-      tags: 下载
-      categories: 默认分类      
-      comments: true
-      
-      
-      
-
 

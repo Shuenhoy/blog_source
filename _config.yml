@@ -112,8 +112,8 @@ prose:
     "source/_posts": 
       - name: "date"
         field:
-          element: "hidden"
-          value: CURRENT_DATETIME
+          element: "text"
+          value: ""
       - name: "title" 
         field:
           label: "Title"

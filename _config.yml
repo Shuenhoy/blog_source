@@ -109,14 +109,24 @@ plugins:
 prose:
   rooturl: "source/_posts"
   metadata:
-    "source/_posts": |
-      title: "Title"
-      date: CURRENT_DATETIME
-      tags: 下载
-      categories: 默认分类      
-      comments: true
-      
-      
+    "source/_posts": 
+      - name: "title" 
+        field:
+          element: "text"
+          value: ""
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "tags"
+        field:
+          element: "text"
+          value: ""
+      - name: "categories"
+        field:
+          element: "text"
+          value: "默认分类"      
+     
       
 
 

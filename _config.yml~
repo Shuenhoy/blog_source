@@ -110,15 +110,15 @@ prose:
   rooturl: "source/_posts"
   metadata:
     "source/_posts": 
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
       - name: "title" 
         field:
           label: "Title"
           element: "text"
           value: ""
-      - name: "date"
-        field:
-          element: "hidden"
-          value: CURRENT_DATETIME
       - name: "tags"
         field:
           label: "Tags"

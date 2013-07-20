@@ -16,7 +16,7 @@ script:
    - "hexo generate"
 
 after_script:
-   - "hexo deploy"
+   - "hexo deploy" 
 env:
    global:
       - REPO="git@github.com:shuenhoy/blog_source"

@@ -19,7 +19,7 @@ after_script:
    - "hexo deploy"
 env:
    global:
-      - REPO="git@github.com:shuenhoy/shuenhoy.github.com"
+      - REPO="git@github.com:shuenhoy/blog_source"
       - secure: "EvlPfa8Kb5W0X6KBePulqqF+gOUfN0bMr59+E/KWH3VNwuy9X2lbCDze6Y+DRWQZXq1zExUMukdshE2Z0oUP3qfp5WmVY6WJOK6v9G2Yd/jfjHz/TtftqM2DYwGqZ/T8DzJ2X5ay/gmE9QeaMF3a5Rkk107yEOgAyMmPIWrzYfI="
       - secure: "QL4A8odneJm4q8mQ5IG8AvYZihFJWhOdbwjbwTEPvgOKhGf1at1Gb4ogS7dXvbKdNee2G9qCGkdBIlXOVNz3brbliRZ5lYUGiJU4Z4Azi7BPueimAnTayDqfZ8lIo+Khr2f1E+7XMqI4tcnstp0reLEKP0WDig2CPlQixMAm1kI="
       - secure: "ec8Nh+XDu+q23N7iq2D5TOdD9FBll0SPOVtdonGIxL5BmgX6LL5xcw4xFHdv1lU3spy5fcNBXFBHcoYPIiUzuCNedgu8dQkCvLrNdazowqtN/i5XwHpnJviTNBI0qfRfM9mN7n4bKg3U301OjlPNHEOmqGVUaJ7J9axdPw0BGm4="

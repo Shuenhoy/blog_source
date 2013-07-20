@@ -112,6 +112,7 @@ prose:
     "source/_posts": 
       - name: "title" 
         field:
+          label: "Title"
           element: "text"
           value: ""
       - name: "date"
@@ -120,10 +121,12 @@ prose:
           value: CURRENT_DATETIME
       - name: "tags"
         field:
+          label: "Tags"
           element: "text"
           value: ""
       - name: "categories"
         field:
+          label: "Categories"
           element: "text"
           value: "默认分类"      
      

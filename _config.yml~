@@ -112,7 +112,7 @@ prose:
     "source/_posts": 
       - name: "title" 
         field:
-          label: "Title:"
+          label: "Title"
           element: "text"
           value: ""
       - name: "date"

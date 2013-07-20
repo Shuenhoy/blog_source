@@ -110,11 +110,6 @@ prose:
   rooturl: "source/_posts"
   metadata:
     "source/_posts":
-      - name: "date"
-        field:
-          label: "Date"
-          element: "text"
-          value: ""
       - name: "title" 
         field:
           label: "Title"

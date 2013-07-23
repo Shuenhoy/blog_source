@@ -106,7 +106,5 @@ deploy:
 plugins:
   - hexo-generator-feed
   - hexo-generator-sitemap
-prose:
-  rooturl: "source/_posts"
 
 

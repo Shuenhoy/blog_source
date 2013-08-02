@@ -108,7 +108,6 @@ plugins:
   - hexo-generator-sitemap
 prose:
   media: 'media'
-  rooturl: 'soruce/_posts'
   metadata:
     source/_posts:
       - name: "tags"

@@ -6,7 +6,7 @@ categories: 默认分类
 date: "2013-08-02"
 ---
 
-![](/media/1099858~I-Want-You-for-the-U-S-Army-c-1917-Posters.jpg)
+![](http://ww2.sinaimg.cn/large/c4370c69gw1e78fv1m6d7j209c0ciq3m.jpg)
 
 同学们，NOIP 莱州队 招人啦！
 ### 什么是NOIP？

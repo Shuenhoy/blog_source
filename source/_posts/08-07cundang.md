@@ -1,5 +1,3 @@
----
-published: false
 title: 摆花问题存档
 tags: 动态规划
 categories: NOIP

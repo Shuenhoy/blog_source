@@ -77,3 +77,92 @@ int main(int argc, char const *argv[])
 }
 
 ```
+
+
+8月14日修正
+==========================
+```c++
+#include "iostream"
+#include "list"
+#include "vector"
+#include "queue"
+#include "fstream"
+#include "climits"
+using namespace std;
+struct Node
+{
+	int u,v,w;
+};
+unsigned int L[5001]={0};
+int N,M;
+vector<Node> fl[5001];
+
+int s,t;
+bool inq[5001]={0};
+int pa[5001]={0};
+queue<int> q;
+int bb;
+int main(int argc, char const *argv[])
+{
+	//ifstream cin("cl.txt");
+	cin>>N;
+	for (int i = 1; i <= N; ++i)
+	{
+		for(int j=1;j <= N; ++j){
+			int a;
+			scanf("%d",&a);
+			if(a){
+				fl[i].push_back((Node){i,j,a});
+				//fl[j].push_back((Node){j,i,a});	
+			}
+		}
+		
+	}
+	for (int i = 1; i <= N; ++i)
+	{
+		L[i]=INT_MAX;
+	}
+	
+	L[1]=0;
+
+	q.push(1);
+	inq[1]=true;
+
+	while(!q.empty()){
+		int u=q.front();q.pop();
+
+		for(vector<Node>::iterator it=fl[u].begin();it!=fl[u].end();++it){
+			int v=(*it).v;
+			int w=(*it).w;
+
+			if(L[u]+w<L[v] ){
+				L[v]=L[u]+w;
+				pa[v]=u;
+				if(!inq[v]){
+					q.push(v);
+					inq[v]=true;
+				}
+			}
+		}
+		inq[u]=false;
+	}
+	int ff[1001]={0};
+	int i=0;
+	int f=N;
+	while(f){
+		ff[i++]=f;
+		f=pa[f];
+	}
+	for (int j = i-1; j > 0; --j)
+	{
+		cout<<ff[j]<<" ";
+	}
+	cout<<ff[0]<<endl;
+	cout<<L[N]<<endl;
+	return 0;
+}
+```
+
+这个题有个坑爹的地方就是是有向图所以昨天当做无向图就全错了= =
+
+然后超时的问题直接用scanf代替cin解决了= =

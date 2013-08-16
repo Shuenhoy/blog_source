@@ -2,6 +2,7 @@ menu:
   Home: /
   Archives: /archives
   留言本: /guestbook
+  About: /about
   RSS: /atom.xml
 
 widgets: 
@@ -9,7 +10,6 @@ widgets:
 - about
 - category
 - tagcloud
-- ads
 - friends
 - visitors
 
@@ -34,4 +34,4 @@ fancybox: false
 google_analytics:
 rss: /atom.xml
 
-jiathis: true
+jiathis: false

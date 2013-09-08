@@ -106,29 +106,5 @@ deploy:
 plugins:
   - hexo-generator-feed
   - hexo-generator-sitemap
-prose:
-  media: 'media'
-  metadata:
-    source/_posts:
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Add Tags"
-          value: ""
-      - name: "categories"
-        field:
-          element: "text"
-          label: "Categories"
-          value: ""
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          value: ""
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
 
 

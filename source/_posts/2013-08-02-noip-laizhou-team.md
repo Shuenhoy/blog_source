@@ -1,8 +1,7 @@
 ---
 published: false
 title: NOIP莱州队需要你！
-tags: NOIP
-categories: 默认分类
+categories: NOIP
 date: "2013-08-02"
 ---
 

@@ -1,5 +1,5 @@
 title: 1道NOIP题-开心的金明
-categories: noip
+categories: NOIP
 date: 2013-05-01 14:07:05
 tags: 背包问题 
 ---

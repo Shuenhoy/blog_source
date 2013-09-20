@@ -318,7 +318,7 @@ function args(index)
 	return Argument:clone{index = index}
 end
 
-local _1 = args(1)
-local _2 = args(2)
-local _3 = args(3)
+_1 = args(1)
+_2 = args(2)
+_3 = args(3)
 ```

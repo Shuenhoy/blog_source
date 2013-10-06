@@ -10,7 +10,17 @@
 <% if (config.duoshuo_shortname && page.comments){ 
 
 %>
-
+<script type="text/javascript">
+nuffnang_bid = "896ddaef6ccaede8598944ef519b7b3f";
+document.write( "<div id='nuffnang_lb'></div>" );
+(function() {	
+var nn = document.createElement('script'); nn.type = 'text/javascript';    
+nn.src = 'http://synad2.nuffnang.com.cn/lb2.js';    
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(nn, s.nextSibling);
+})();
+</script>
+<!-- nuffnang-->
+	
 <section id="comment">
   <h1 class="title"><%= __('comment') %></h1>
  <!-- Duoshuo Comment BEGIN -->

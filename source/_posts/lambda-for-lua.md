@@ -4,7 +4,7 @@ categories: Lua
 date: "2013-09-15 10:36:08"
 ---
 
-Lua的function这个关键字有时候挺烦人的。比如我就想要个`f(a, b)=a+b`的函数就要写成
+嗯，Lua的function这个关键字有时候挺烦人的。比如我就想要个`f(a, b)=a+b`的函数就要写成
 
 ```lua
 function f(a,b) return a+b end
